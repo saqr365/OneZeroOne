@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.w-800 {
+    font-weight: 800;
+}
+
+.c-navbar {
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+}
+
+.navbar-dark .navbar-brand {
+    font-family: "Lobster", sans-serif;
+    font-size: 1.9rem;
+    padding-top: 0.05rem;
+    height: 45px;
+}
+
+.d-dropdown {
+    background-color: rgba(255, 255, 255, 0.4);
+    backdrop-filter: blur(2px);
+    border: 2px solid rgba(255, 255, 255, 0.8);
+}
+
+.main {
+    min-height: 100vh;
+    background-image: url(../images/jigar-panchal-wgeTD37mGN4-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.di-main {
+    display: flex;
+    justify-content: center;
+}
+
+.dii-main {
+    text-align: center;
+    width: 60%;
+    padding: 10px;
+    margin-bottom: 60px;
+}
+
+h2 {
+    font-size: 7rem;
+    margin-bottom: 2rem;
+    font-family: "Lobster", sans-serif;
+    color: white;
+}
+
+p {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: rgb(0 0 0 / 70%) !important;
+    font-weight: 800
+}
+
+.diii-main {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+h3 {
+    width: 50%;
+    background-color: #343a40a1;
+    border-radius: 20px;
+    padding: 20px;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 300;
+}
+
+.sp-main {
+    color: gold;
+    font-size: 27px;
+    font-weight: 500;
+}
+
+.button-main {
+    display: flex;
+    justify-content: space-around;
+    padding: 0 10%;
+}
+
+.button-main a {
+    text-decoration: none;
+    color: white;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition-duration: 0.4s;
+    border-radius: 15px;
+    width: 110px;
+    height: 48px;
+    font-size: 1.3rem;
+    font-family: "Lobster", sans-serif;
+}
+
+.button1 {
+    background: linear-gradient(345deg, #FFBF00 -80%, #2c8cf4 70%);
+    transition: 0.5s ease;
+}
+  
+.button1:hover {
+    color: #0a0b0c;
+    font-size: 1.283rem;
+}
+
+.button2 {
+    background: linear-gradient(345deg, #2d2db0 -80%, #FFBF00 70%);
+    transition: 0.5s ease;
+}
+  
+.button2:hover {
+    color: #0a0b0c;
+    font-size: 1.283rem;
+}
+
+.falestine-main {
+    position: absolute;
+    left: 0;
+    width: 70px;
+    height: 250px;
+    background: linear-gradient(270deg, #b20000 -75%, #ff0000 90%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0 10px 10px 0;
+}
+
+.falestine-main a {
+    transform: rotate(270deg);
+    font-size: 2rem;
+    text-decoration: overline;
+    color: white;
+    padding: 10% 70%;
+}
