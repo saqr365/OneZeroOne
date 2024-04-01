@@ -11,6 +11,7 @@
     width: 100%;
     position: fixed;
     z-index: 999;
+    padding: 0.5rem 3rem;
 }
 
 .navbar-dark .navbar-brand {

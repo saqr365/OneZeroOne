@@ -20,6 +20,7 @@
     width: 100%;
     position: fixed;
     z-index: 999;
+    padding: 0.5rem 3rem;
 }
 
 .navbar-dark .navbar-brand {
@@ -29,9 +30,24 @@
     height: 45px;
 }
 
+.dropdown-menu {
+    border-radius: 0.5;
+    background-color: #212529;
+    margin: 0.6rem 0 0;
+}
+
+.dropdown-item {
+    color: white;
+}
+
+.dropdown-item:hover {
+    background: linear-gradient(270deg, #b20000 -75%, #ff0000 90%);
+    color: white;
+}
+
 .main {
     min-height: 100vh;
-    background-image: url(../images/jigar-panchal-wgeTD37mGN4-unsplash.jpg);
+    background-image: url(../images/pexels-steve-johnson-10194139.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -39,6 +55,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 100px;
 }
 
 .di-main {
@@ -154,4 +171,13 @@ h3 {
     text-decoration: overline;
     color: white;
     padding: 10% 70%;
+}
+
+.dropdown-i {
+    display: flex;
+}
+
+.dropdown-m-i {
+    border-left: 3px solid #3f474f;
+    margin-left: 10px;
 }

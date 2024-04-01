@@ -10,6 +10,7 @@
     width: 100%;
     position: fixed;
     z-index: 999;
+    padding: 0.5rem 3rem;
 }
 
 .navbar-dark .navbar-brand {
@@ -21,27 +22,22 @@
 
 .main {
     min-height: 100vh;
-    background-image: url(../images/pawel-czerwinski-MpwnazDHBw0-unsplash.jpg);
+    background-image: url(../images/pexels-steve-johnson-10194139.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    padding-top: 100px;
-}
-
-.md-web-store {
-    display: flex;
+    padding: 100px 50px;
 }
 
 .d-web-store {
     display: flex;
-    width: 50%;
     padding-left: 30px;
 }
 
 .d-web-store a {
     text-decoration: none;
-    color: black;
+    color: #3722a3;
 }
 
 .web-store {
@@ -56,7 +52,7 @@
 }
 
 .web-store-hov:hover {
-    background: linear-gradient(315deg, #226ec1 -65%, #2c8cf4 70%);
+    background: linear-gradient(315deg, #98a3bf -65%, #3722a3 70%);
     color: white;
 }
 
@@ -69,26 +65,19 @@
     font-size: 15px;
     font-weight: 700;
     margin: 0;
+
+    /* background-image: linear-gradient(315deg, #98a3bf -65%, #3722a3 70%);
+    -webkit-background-clip: text;
+    color: transparent; */
 }
 
 .a-ct {
-    background: linear-gradient(315deg, #226ec1 -65%, #2c8cf4 70%);
+    background: linear-gradient(315deg, #98a3bf -65%, #3722a3 70%);
+    border: 2px solid white;
 }
 
 .a-ct h2 {
     color: white;
-}
-
-.d-hi {
-    width: 50%;
-}
-
-.d-hi h1 {
-    font-size: 120px;
-    font-weight: 400;
-    letter-spacing: 45px;
-    padding-top: 25px;
-    font-family: non;
 }
 
 .cr {
@@ -99,17 +88,23 @@
 }
 
 .cr-i {
-    margin-bottom: 70px;
+    margin: 0 20px 70px;
 }
 
 .cr-i h3 {
     font-size: 30px;
     font-weight: bold;
-    margin-left: 30px;
+    width: 90%;
+    padding: 10px;
+    margin: 0 auto;
+    border-radius: 10px 10px 0 0;
+    background-color: rgba(255, 255, 255, 20%);
+    text-shadow: 2.5px 2.5px 4px #FF0000;
+    color: white;
+    backdrop-filter: blur(5px);
 }
 
 .cr-ii {
-    background-color: rgba(255, 255, 255, 0.4);
     width: 500px;
     border: 4px solid rgba(255, 255, 255, 0.5);
     border-radius: 20px;
@@ -120,6 +115,7 @@
 .cr-ii a {
     width: 100%;
     background-color: white;
+    color: black;
     height: 80px;
     border-radius: 20px;
     display: flex;
@@ -130,7 +126,8 @@
 }
 
 .cr-ii a:hover {
-    background-color: whitesmoke;
+    box-shadow: 0px 0px 5px 2px white;
+    color: #601cfc;
 }
 
 
@@ -144,5 +141,4 @@
     font-size: 20px;
     margin: 0;
     font-family: cursive;
-    color: black;
 }
