@@ -23,7 +23,7 @@
 
 .main {
     min-height: 100vh;
-    background-image: url(../images/jigar-panchal-6W_fige5UfU-unsplash.jpg);
+    /* background-image: url(../images/jigar-panchal-6W_fige5UfU-unsplash.jpg); */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -45,12 +45,10 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: rgba(255, 255, 255, 0.2);
     border-radius: 30px;
-    width: 40%;
-    padding: 50px 0;
-    border: white solid 5px;
-    backdrop-filter: blur(2px);
+    width: 600px;
+    padding: 35px 0;
+    border: 5px solid #f4f6fa;
 }
 
 .di-i form {
@@ -59,7 +57,7 @@
 
 .di-i h2 {
     text-align: center;
-    font-size: 3.5rem;
+    font-size: 3rem;
     font-family: "Anta", sans-serif;
     font-weight: 600;
     margin-bottom: 40px;
@@ -83,8 +81,7 @@
 
 .di-ii input {
     width: 100%;
-    padding: 12px 20px;
-    margin-top: 5px;
+    padding: 10px 20px;
     display: inline-block;
     border: 3px solid #ccc;
     border-radius: 10px;
@@ -97,9 +94,9 @@
     background: linear-gradient(357deg, #FFBF00 -65%, #2c8cf4 75%);
     color: white;
     border-radius: 50px;
-    margin: 10px 0 40px;
+    margin: 10px 0;
     border: none;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     font-weight: 500;
     font-family: "Lobster", sans-serif;
     cursor: pointer;
@@ -120,7 +117,7 @@
 
 .di-iii h3{
     font-family: "Protest Guerrilla", sans-serif;
-    font-size: 1.8rem;
+    font-size: 1.7rem;
 }
 
 .bir {
@@ -138,7 +135,7 @@
 }
 
 .gen span {
-    color: white;
+    color: black;
     font-size: 1.07rem;
     font-family: "Merienda", cursive;
 }

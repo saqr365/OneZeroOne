@@ -41,7 +41,7 @@
 }
 
 .dropdown-item:hover {
-    background: linear-gradient(270deg, #b20000 -75%, #ff0000 90%);
+    background-color: #353b41;
     color: white;
 }
 
